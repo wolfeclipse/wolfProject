@@ -12,7 +12,7 @@ public class FirstController {
     }
 
     @GetMapping("/hello")
-    public String sayHello(){
+    public String messageHello(){
         return "This is a hello page!";
     }
 }
